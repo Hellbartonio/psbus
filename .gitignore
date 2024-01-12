@@ -1,0 +1,6 @@
+.vscode/
+backup/
+venv/
+.env
+*.pyc
+*.db
