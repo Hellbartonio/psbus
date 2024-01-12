@@ -8,7 +8,7 @@ import os, pytz # os нужен и для переменной окружени�
 
 telegram_token = os.getenv('TELEGRAM_TOKEN')
 # heroku_url = 'https://psbus-bot.herokuapp.com/' # для Heroku
-heroku_url = 'https://psbus-dev-tesa.1.ie-1.fl0.io' # для FL0
+heroku_url = 'https://weak-rose-cape-buffalo-tam.cyclic.app/' # для Cyclic
 updater = Updater(token=telegram_token, use_context=True)
 dispatcher = updater.dispatcher
 
